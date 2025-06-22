@@ -1,0 +1,32 @@
+.htCore td {
+	white-space: normal; 
+	word-wrap: break-word;
+	overflow: hidden; 
+}
+.instruction-cell {
+	background-color: #fff4e5 !important;
+    z-index: 5;
+    font-style: italic;
+	color: #333;
+	white-space: nowrap !important;
+	overflow: visible !important;
+	text-overflow: clip !important;
+}
+
+.heading {
+	min-width: fit-content !important;
+	color: #888888 !important;
+}
+
+.htCore td {
+	overflow: visible !important;
+}
+.htDropdownMenu {
+	max-height: 400px !important; /* Adjust dropdown height */
+	overflow-y: auto !important;
+	font-size: 14px;
+}
+
+.htDropdownMenu .htDropdownItem {
+	padding: 10px !important; /* Padding for each item */
+}
